@@ -4,17 +4,12 @@ module.exports = function(sails) {
         defaults: {},
         initialize: function (cb) {
 
-            var ModelA = require('./models/ModelA');
-            ModelA.identity = 'modela';
-            ModelA.globalid = 'ModelA';
+            var TestModel = require('./models/Test');
+            TestModel.identity = 'test';
+            TestModel.globalid = 'Test';
 
-            var ModelB = require('./models/ModelB');
-            ModelB.identity = 'modelb';
-            ModelB.globalid = 'ModelB';
 
-            sails.models['modela'] = ModelA;
-            sails.models['modelb'] = ModelB;
-
+            sails.models['test'] = TestModel;
             return cb();
         }
     }

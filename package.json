@@ -12,6 +12,9 @@
   "sails": {
      "isHook": true
    },
+  "dependencies": {
+    "lodash": "*"
+  },
   "devDependencies": {
      "sails": "*"
   }

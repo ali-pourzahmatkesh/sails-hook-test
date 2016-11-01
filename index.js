@@ -1,9 +1,8 @@
 module.exports = function(sails) {
 
     return {
-        defaults: {
-        },
-        initialize: function(cb) {
+        defaults: {},
+        initialize: function (cb) {
 
             var ModelA = require('./models/ModelA');
             ModelA.identity = 'modela';
@@ -19,3 +18,4 @@ module.exports = function(sails) {
             return cb();
         }
     }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "sails-hook-test",
+  "version": "1.0.0",
+  "description": "test hook",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Ali Pour Zahmatkesh",
+  "license": "ISC",
+  "sails": {
+     "isHook": true
+   },
+  "devDependencies": {
+     "sails": "*"
+  }
+}

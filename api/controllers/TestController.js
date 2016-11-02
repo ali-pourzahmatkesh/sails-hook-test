@@ -1,4 +1,3 @@
-var ResponseService = require('../services/ResponseService');
 module.exports = {
 
     test: function(req, res){

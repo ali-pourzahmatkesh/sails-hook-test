@@ -10,12 +10,13 @@
   "author": "Ali Pour Zahmatkesh",
   "license": "ISC",
   "sails": {
-     "isHook": true
-   },
+    "isHook": true
+  },
   "dependencies": {
-    "lodash": "*"
+    "lodash": "*",
+    "sails-util-mvcsloader": "^0.3.2"
   },
   "devDependencies": {
-     "sails": "*"
+    "sails": "*"
   }
 }
